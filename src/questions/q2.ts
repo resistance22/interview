@@ -1,16 +1,12 @@
 
 /**
+ * Find number in a sorted array
  *
- * Check if a string is palindrome
  * @export
- * @param {string} input
- * @return {*}  {boolean}
- * 
- * @example
- * 
- * isPalindrome("madam"): true
- * isPalindrome("hello"): false
+ * @param {number} candidate
+ * @param {number[]} numbers
+ * @return {*}  {(number | null)}
  */
-export function isPalindrome(input: string): boolean {
+export function search(candidate: number, numbers: number[]): number | null{
   throw new Error('Not Implemented!')
 }
